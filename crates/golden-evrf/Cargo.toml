@@ -171,5 +171,9 @@ required-features = ["bls12-381-jubjub", "parallel"]
 name = "check_bench_fixtures_bls"
 required-features = ["bls12-381-jubjub", "parallel"]
 
+[[example]]
+name = "blog_bench"
+required-features = ["bls12-381-jubjub", "parallel"]
+
 [lints]
 workspace = true
